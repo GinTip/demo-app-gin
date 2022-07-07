@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ListarPersonasPage = () => {
-  return <>ListarPersonasPage</>;
+  return <>Listar Personas Page</>;
 };
 
 export default ListarPersonasPage;

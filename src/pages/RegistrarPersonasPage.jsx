@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RegistrarPersonasPage = () => {
-  return <>RegistrarPersonasPage</>;
+  return <>Registrar PersonasPage</>;
 };
 
 export default RegistrarPersonasPage;
