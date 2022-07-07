@@ -39,6 +39,16 @@ const NavBar = () => {
         Blog Page
       </NavLink>
     </li>
+    <li>
+      <NavLink to='/ucamper/35/gina' className={({isActive}) => (isActive ? 'activo' : undefined)}>
+        Ucamper Page
+      </NavLink>
+    </li>
+    <li>
+      <NavLink to='/alumnos' className={({isActive}) => (isActive ? 'activo' : undefined)}>
+        Alumnos Page
+      </NavLink>
+    </li>
   </ul>
   )
 };

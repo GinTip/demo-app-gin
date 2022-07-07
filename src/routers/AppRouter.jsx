@@ -9,6 +9,9 @@ import RegistrarPersonasPage from '../pages/RegistrarPersonasPage';
 import ListarPersonasPage from '../pages/ListarPersonasPage';
 import NavBar from '../components/NavBar';
 import BlogPage from '../pages/BlogPage';
+import UcamperPage from '../pages/UcamperPage';
+import AlumnosPage from '../pages/AlumnosPage';
+import AlumnoPage from '../pages/AlumnoPage';
 
 const AppRouter = () => {
   return (
@@ -22,6 +25,10 @@ const AppRouter = () => {
           <Route path='/registro' element={<RegistrarPersonasPage />} />
           <Route path='/listarPersonas' element={<ListarPersonasPage />} />
           <Route path='/blog' element={<BlogPage articulos={['Artículo 1', 'Artículo 2', 'Artículo 3']}/>} />
+          <Route path='/ucamper/:id/:nombre' element={<UcamperPage />} />
+          
+          <Route path='/alumnos' element={<AlumnosPage />} />
+          <Route path='/alumno' element={<AlumnoPage />} />
 
           <Route path='*' element={<Navigate to='/' />} />
         </Routes>
